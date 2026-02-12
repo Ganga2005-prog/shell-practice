@@ -3,5 +3,7 @@
 NUM=$1
 
 if [ $NUM -gt 20 ]; then
-    echo "given no.:$NUM is greater than 20"
+    echo "given no:$NUM is greater than 20"
+else
+    echo "given no:$NUM is lesser than 20"
 fi
